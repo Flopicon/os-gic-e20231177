@@ -1,0 +1,12 @@
+.:
+total 8
+19005864 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita   25 Nov 10 00:53 candle-old.txt
+19005863 drwxrwxr-x 2 gic-nhean-sonita gic-nhean-sonita 4096 Nov 10 00:53 links
+
+links:
+total 4
+19005865 lrwxrwxrwx 1 gic-nhean-sonita gic-nhean-sonita 17 Nov 10 00:53 first.txt -> ../candle-old.txt
+19005864 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 25 Nov 10 00:53 hard.txt
+19005866 lrwxrwxrwx 1 gic-nhean-sonita gic-nhean-sonita  9 Nov 10 00:53 second.txt -> first.txt
+checkpoint pencil candle
+checkpoint pencil candle

@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-draft.txt
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-hard.txt
+19005858 lrwxrwxrwx 1 gic-nhean-sonita gic-nhean-sonita  9 Nov 10 00:49 maple-soft.txt -> maple.txt
+19005860 -rw-rw-r-- 1 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:50 maple.txt
+maple.txt: version 414
+hard: version 363
+soft: version 414

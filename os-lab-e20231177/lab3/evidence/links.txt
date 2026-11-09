@@ -1,0 +1,26 @@
+
+=== BEFORE RENAME ===
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-hard.txt
+19005858 lrwxrwxrwx 1 gic-nhean-sonita gic-nhean-sonita  9 Nov 10 00:49 maple-soft.txt -> maple.txt
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple.txt
+hard: version 363
+soft: version 363
+stored target: maple.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-draft.txt
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-hard.txt
+19005858 lrwxrwxrwx 1 gic-nhean-sonita gic-nhean-sonita  9 Nov 10 00:49 maple-soft.txt -> maple.txt
+hard: version 363
+stored target: maple.txt
+soft: cat: maple-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-draft.txt
+19005844 -rw-rw-r-- 2 gic-nhean-sonita gic-nhean-sonita 12 Nov 10 00:45 maple-hard.txt
+19005858 lrwxrwxrwx 1 gic-nhean-sonita gic-nhean-sonita 15 Nov 10 00:50 maple-soft.txt -> maple-draft.txt
+stored target: maple-draft.txt
+hard: version 363
+soft: version 363
+
+Decision: I used a relative target so the link can still work if the whole folder is moved. An absolute path could break if the folder is moved to another location.
