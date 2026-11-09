@@ -1,0 +1,8 @@
+incoming/practice/notes/welcome note.txt
+incoming/practice/welcome note.txt
+reports/cash flow.txt
+reports/README.txt
+reports/tax summary.txt
+TechCorp/Sales/archive/first-original.txt
+TechCorp/Sales/cash flow.txt
+TechCorp/Sales/tax summary.txt

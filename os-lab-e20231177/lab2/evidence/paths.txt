@@ -1,0 +1,17 @@
+Relative path: mv -- "tax summary.txt" ../reports/
+
+Absolute path: mv -- "/home/gic-nhean-sonita/oslab-work/lab2/incoming/cash flow.txt" "/home/gic-nhean-sonita/oslab-work/lab2/reports/"
+
+Copy: cp -- "reports/tax summary.txt" "reports/cash flow.txt" "TechCorp/Sales/"
+
+Archive: cp -- "reports/tax summary.txt" "TechCorp/Sales/archive/first-original.txt"
+
+Relative path is shorter and depends on the current directory. Absolute path gives the full location and works regardless of the current directory.
+
+Error: No such file or directory
+
+Fix: [working relative path]
+
+Error: cat: reports/tax summary.txt: No such file or directory
+
+Fix: ../../reports/tax summary.txt
