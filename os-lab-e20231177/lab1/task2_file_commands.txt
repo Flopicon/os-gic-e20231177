@@ -1,0 +1,34 @@
+mkdir task2_files
+cp lemon.txt task2_files/
+mv silver.txt task2_files/silver_renamed.txt
+lemon.txt
+lemon_copy.txt
+silver_renamed.txt
+lemon.txt
+lemon_copy.txt
+silver_renamed.txt
+lemon.txt
+silver_renamed.txt
+This is file lemon
+This is file silver
+lemon.txt
+lemon_copy.txt
+silver_rename.txt
+silver_renamed.txt
+lemon.txt
+lemon_copy.txt
+silver_rename.txt
+silver_renamed.txt
+lemon.txt
+silver_rename.txt
+silver_renamed.txt
+This is file lemon
+This is file silver
+lemon.txt
+lemon_copy.txt
+silver.txt
+lemon.txt
+lemon_copy.txt
+silver_renamed.txt
+lemon.txt
+silver_renamed.txt
